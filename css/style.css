@@ -5,10 +5,20 @@
 
 * {border: 1px solid #aaa;}
 */
+  html {
+    background-image: url('../images/fondRed.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
   body {
     display: flex;
     flex-direction: column;
     font-family: arial;
+    width: 55%;
+    margin: 0 auto;
+    height: 1900px;
+    position: static;
   }
   header,
   footer {
