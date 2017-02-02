@@ -1,4 +1,5 @@
 /* Variable */
+/* @couleur-contrast : contrast(@couleur-base);*/
 /* pour le debuggage on met une bordure autour de chacun des éléments 
 
 * {border: 1px solid #aaa;}
@@ -10,7 +11,12 @@ html {
   background-attachment: fixed;
 }
 body {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   font-family: arial;
   width: 55%;
@@ -23,21 +29,38 @@ footer {
   background-color: #000000;
 }
 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   padding: 5px;
+  /* fin nav*/
 }
 header img {
   /* width : 352px; dimension de l'image */
   width: 100%;
 }
+header nav {
+  /* fin ul*/
+}
 header nav ul {
   list-style-type: none;
   padding: 3px;
+  /* fin li*/
 }
 header nav ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
   justify-content: flex-start;
   border-bottom: 1px dotted #f9d42a;
 }
@@ -51,7 +74,10 @@ header nav ul li a {
   font-size: 150%;
   padding: 3px;
   color: #ffffff;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
   flex: 1;
+  -webkit-transition: background-color 1s;
   transition: background-color 1s;
 }
 header nav ul li i {
@@ -62,22 +88,44 @@ header nav ul li i {
 header nav ul li a:hover {
   background-color: #aaa;
 }
+/* fin header  */
 main {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 main section {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 main section article {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   width: 100%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   height: 250px;
+  /* border: 1px solid #aaa;*/
   font-size: 250px;
 }
 main section:nth-child(even) article:nth-child(1) {
@@ -89,12 +137,6 @@ main section:nth-child(even) article:nth-child(2) {
 main section:nth-child(even) article:nth-child(3) {
   background-color: #7fe3d4;
 }
-main section:nth-child(even) article:nth-child(4) {
-  background-color: #e3d47f;
-}
-main section:nth-child(even) article:nth-child(5) {
-  background-color: #d47fe3;
-}
 main section:nth-child(odd) article:nth-child(1) {
   background-color: #dbaab1;
 }
@@ -104,17 +146,20 @@ main section:nth-child(odd) article:nth-child(2) {
 main section:nth-child(odd) article:nth-child(3) {
   background-color: #b1b1b1;
 }
-main section:nth-child(odd) article:nth-child(4) {
-  background-color: #dbaab1;
-}
-main section:nth-child(odd) article:nth-child(5) {
-  background-color: #b1dca9;
-}
 footer {
   height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 footer div {
@@ -122,6 +167,7 @@ footer div {
 }
 footer div i {
   color: #f9d42a;
+  -webkit-transition: color 1s;
   transition: color 1s;
 }
 footer div i:hover {
