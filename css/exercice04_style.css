@@ -1,0 +1,75 @@
+svg {
+  width: 30%;
+  height: 30%;
+  margin-bottom: 5%;
+}
+svg polyline,
+svg line,
+svg path {
+  fill: none;
+  stroke: blue;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: 0.2s;
+}
+.svgT-1:hover path {
+  d: path("M8,2 L2,8");
+}
+.svgT-2:hover path {
+  d: path("M2,2 L5,8 L8,2");
+}
+.svgT-3:hover path {
+  d: path("M2,2 Q2,8 8,8");
+}
+.svgT-4:hover path {
+  d: path("M2,5 C2,2 8,2 8,5");
+}
+.svgT-5:hover path {
+  d: path("M3,3 L8,3 L2,5 L8,5 L3,7 L7,7");
+}
+.svgA-1 path {
+  stroke-dasharray: 10;
+  animation: anim01 5s linear infinite;
+}
+.svgA-2 path {
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+  animation: anim02 15s linear infinite;
+}
+.svgA-3 path {
+  stroke-dasharray: 50;
+  animation: anim03 15s linear forwards infinite;
+}
+.svgA-4 path {
+  stroke-dasharray: 20;
+  animation: anim04 5s infinite;
+}
+.svgA-5 path {
+  stroke-dasharray: 12;
+  animation: anim04 20s ease-out infinite;
+}
+@keyframes anim01 {
+  to {
+    stroke-dashoffset: 100;
+  }
+}
+@keyframes anim02 {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes anim03 {
+  to {
+    stroke-dashoffset: 1200;
+  }
+}
+@keyframes anim04 {
+  to {
+    stroke-dashoffset: 70;
+  }
+}
+@keyframes anim04 {
+  to {
+    stroke-dashoffset: 900;
+  }
+}
