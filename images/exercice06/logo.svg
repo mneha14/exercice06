@@ -1,0 +1,29 @@
+<svg width="637" height="256" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <defs>
+  <filter height="200%" width="200%" y="-50%" x="-50%" id="svg_1_blur">
+   <feGaussianBlur stdDeviation="0.4" in="SourceGraphic"/>
+  </filter>
+  <filter height="200%" width="200%" y="-50%" x="-50%" id="svg_4_blur">
+   <feGaussianBlur stdDeviation="3.6" in="SourceGraphic"/>
+  </filter>
+  <filter id="svg_5_blur">
+   <feGaussianBlur stdDeviation="0" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <g>
+  <title>background</title>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_6" d="m214.469076,112.389998l0,0c0,-40.839998 33.460827,-73.947365 74.736839,-73.947365l0,0c19.821434,0 38.83105,7.790856 52.846916,21.658677c14.015881,13.867826 21.889924,32.676621 21.889924,52.288688l0,0c0,40.839993 -33.460827,73.947365 -74.736839,73.947365l0,0c-41.276008,0 -74.736839,-33.107372 -74.736839,-73.947365zm37.36842,0l0,0c0,20.419994 16.730423,36.973683 37.36842,36.973683c20.638011,0 37.36842,-16.553688 37.36842,-36.973683c0,-20.419994 -16.730418,-36.973683 -37.36842,-36.973683l0,0c-20.637996,0 -37.36842,16.553693 -37.36842,36.973683z" stroke-opacity="null" stroke-width="1.5" stroke="#000000" fill="#d6d6d6"/>
+  <path id="svg_3" d="m1269.983643,658.490723c49,-21 -421,248 -178,199c243,-49 494,-248 383,-218c-111,30 186,-111 -205,19z" stroke-width="1.5" stroke="#000000" fill="#ffffff"/>
+  <text filter="url(#svg_1_blur)" font-weight="bold" stroke="#000000" transform="rotate(0.339508980512619 1276.2802734374586,754.804138183619) matrix(6.00373983318231,0,0,6.502545576748728,-998.0581219520302,-857.1161838091241) " xml:space="preserve" text-anchor="start" font-family="'League Gothic', sans-serif" font-size="21" id="svg_1" y="255.287358" x="360.753452" stroke-width="0" fill="#6d0938">TIM</text>
+  <text stroke="#000000" transform="matrix(0.991266066802936,0,0,0.991266066802936,2.323745271250326,1.4842496026695553) " filter="url(#svg_5_blur)" xml:space="preserve" text-anchor="start" font-family="'League Gothic', sans-serif" font-size="76" id="svg_5" y="158.789474" x="260.921019" stroke-opacity="null" stroke-width="0" fill="#000000">TIM</text>
+  <path stroke="#000000" id="svg_7" d="m314.995397,153.94763l0,0c0,-28.329153 23.210497,-51.294475 51.842101,-51.294475l0,0c13.749371,0 26.935621,5.404223 36.657889,15.023802c9.722282,9.619586 15.184204,22.666527 15.184204,36.270674l0,0c0,28.329146 -23.210497,51.294468 -51.842094,51.294468l0,0c-28.631597,0 -51.842101,-22.965322 -51.842101,-51.294468zm25.92105,0l0,0c0,14.16457 11.605255,25.647234 25.92105,25.647234c14.315802,0 25.921043,-11.482665 25.921043,-25.647234c0,-14.164577 -11.605248,-25.647234 -25.921043,-25.647234l0,0c-14.315795,0 -25.92105,11.482665 -25.92105,25.647234z" stroke-opacity="null" stroke-width="1.5" fill="#ffffff"/>
+  <text filter="url(#svg_4_blur)" xml:space="preserve" text-anchor="start" font-family="'League Gothic', sans-serif" font-size="76" id="svg_4" y="158.263158" x="260.342082" stroke-opacity="null" stroke-width="0" stroke="#000000" fill="#6d0938">TIM</text>
+ </g>
+</svg>
