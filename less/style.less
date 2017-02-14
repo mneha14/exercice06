@@ -1,19 +1,17 @@
+	html {
+		height : 200%;
+	}
+	
+	#monSVG {
+		position:fixed;
+	}
 
 
 
-/* ------------------------------------------------------------ MOBILE -------------- */
+	/* Définir la couleur de fond, la couleur du contour, l'épaisseur du contour du path */
 
-@media all and (min-width: 480px) {
-	@import '01_petit.less';
-}
-
-@media all and (min-width: 600px) {
-	@import '02_moyen.less';
-}
-
-@media all and (min-width: 800px) {
-	@import '03_grand.less';
-}
-
-
-
+	#monSVG path {
+		fill:none;
+		stroke: #f00;
+		stroke-width: 3;
+	}
